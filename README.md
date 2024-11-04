@@ -76,6 +76,20 @@ function App() {
 - `props.nome` permette di passare un nome diverso al componente.
 - `Saluto nome="Mario"` e `Saluto nome="Luigi"` mostrano messaggi personalizzati.
 
+## FOCUS - Creare un progetto con Create-React-App
+
+Prima di creare un progetto, accertati di aver installato node con questo comando 
+
+```cmd
+node --version
+```
+
+```cmd
+npx create-react-app nomeprogetto
+cd nomeprogetto
+npm install
+```
+
 ## FOCUS - Cartella progetto React
 
 Quando crei un progetto con Create React App (CRA), viene generata una struttura di file e cartelle per aiutarti a iniziare rapidamente. Ecco una spiegazione semplice dei file e delle cartelle principali che vedrai:
